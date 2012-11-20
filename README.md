@@ -13,4 +13,6 @@ emGroup.on("test", function() {
   
 });
 
+group(emGroup.on("test", function(){})).dispose(); //wrapped method
+
 ```
